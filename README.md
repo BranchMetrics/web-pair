@@ -2,6 +2,6 @@
 
 Build something like this!
 
-![Tic-tac-toe Game](https://s3-us-west-1.amazonaws.com/branch-guides/webhook002_v2_SpecifiyEventName.png)
+![Tic-tac-toe Game](https://github.com/BranchMetrics/web-pair/blob/master/objective.png?raw=true)
 
 Reminder: Keep one source of truth for your game data
