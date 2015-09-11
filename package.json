@@ -1,13 +1,17 @@
 {
   "name": "ti-tac-toe",
-
+  "scripts": {
+    "js-watch": "watchify src/app.jsx -t babelify -o build/all.js -v",
+    "js-build": "browserify src/app.jsx -t babelify -o build/all.js",
+    "server": "python -m SimpleHTTPServer 8000",
+    "start": "npm run server & npm run js-watch"
+  },
   "dependencies": {
-    "browserify": "^6.3.2",
-    "gulp": "^3.8.10",
-    "gulp-util": "^3.0.4",
-    "react": "^0.12.0",
-    "reactify": "^0.16.0",
-    "vinyl-source-stream": "^1.0.0",
-    "watchify": "^2.1.1"
+    "react": "0.13.3"
+  },
+  "devDependencies": {
+    "babelify": "6.1.1",
+    "browserify": "11.0.0",
+    "watchify": "3.2.1"
   }
 }
