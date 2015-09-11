@@ -9,3 +9,5 @@ Reminder: Keep one source of truth for your game data
 1. `npm install`
 2. `npm start`
 3. http://localhost:8000
+
+Extra points for making it look nice
