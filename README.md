@@ -7,5 +7,5 @@ Build something like this!
 Reminder: Keep one source of truth for your game data
 
 1. `npm install`
-2. `gulp watch`
-3. open index.html
+2. `npm start`
+3. http://localhost:8000
